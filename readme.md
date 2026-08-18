@@ -399,7 +399,7 @@ FastAPI Backend (Render)
  ## Major AI-LMS Modules 
 Student Dashboard
 │
-├──  Study Planner
+├── Study Planner
 │   ├── Schedule
 │   ├── Hours Analysis
 │   ├── Weekly Goal
@@ -407,22 +407,22 @@ Student Dashboard
 │   ├── Student Message
 │   └── Countdown
 │
-├──  AI Quiz
+├── AI Quiz
 │   ├── Quiz Generation
 │   ├── MCQ Selection
 │   ├── Submit
 │   ├── Answer Checking
 │   └── Result Highlighting
 │
-├──  AI Interview
+├── AI Interview
 │
-├──  Courses
+├── Courses
 │
-├──  Assignments
+├── Assignments
 │
-├──  Attendance
+├── Attendance
 │
-└──  Results
+└── Results
 
 ## Project Goal
 
