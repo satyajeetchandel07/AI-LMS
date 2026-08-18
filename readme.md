@@ -334,21 +334,33 @@ uvicorn app.main:app --reload
 
 started moving the project from local development toward deployment:
 
-GitHub
-   ↓
-MongoDB Atlas
-   ↓
-FastAPI
-   ↓
-Render
-   ↓
-React connects to live API
-   ↓
-Vercel
-   ↓
-CORS configuration
-   ↓
-Test complete live project
+                    ┌─────────────────┐
+                    │    GitHub       │
+                    │ Source Code     │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┴──────────────┐
+              ↓                             ↓
+     ┌─────────────────┐          ┌─────────────────┐
+     │    Render       │          │     Vercel      │
+     │   FastAPI       │          │  React Frontend │
+     └────────┬────────┘          └────────┬────────┘
+              │                            │
+              │                            │ Axios
+              │                            ↓
+              │                  ┌─────────────────┐
+              └─────────────────→│   Live API      │
+                                 │ ai-lms-lrbz...   │
+                                 └────────┬────────┘
+                                          │
+                                          ↓
+                                 ┌─────────────────┐
+                                 │  MongoDB Atlas   │
+                                 │    Database      │
+                                 └─────────────────┘
+
+                    CORS allows:
+        Vercel Frontend → Render FastAPI
 
 
 
