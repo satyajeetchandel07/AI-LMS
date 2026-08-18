@@ -353,6 +353,7 @@ Test complete live project
 
 
 ##  Application Flow
+
 Student
    │
    ▼
@@ -372,7 +373,7 @@ FastAPI Backend
                     AI Response
                          │
                          ▼
-                   FastAPI Backend
+                  FastAPI Backend
                          │
                          ▼
                   React Frontend
