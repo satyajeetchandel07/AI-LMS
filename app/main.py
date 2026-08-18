@@ -60,6 +60,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://ai-lms1.vercel.app",
+        "ai-lms1-q1ayig7ys-rdx20.vercel.app",
+        "ai-lms1-rdx20.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
