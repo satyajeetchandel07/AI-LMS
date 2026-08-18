@@ -99,10 +99,10 @@ The dashboard continuously updates the remaining time and calculates the overall
 
 #    AI QUIZ
         ↓
-      Accepts:
-       Topic
-   Number of questions
-     Difficulty
+Accepts:
+Topic
+Number of questions
+Difficulty
         ↓
 User clicks Generate Quiz
         ↓
