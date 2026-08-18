@@ -97,7 +97,7 @@ The dashboard continuously updates the remaining time and calculates the overall
 
 ## AI Quiz 
 
-#    AI QUIZ
+# AI QUIZ
         ↓
 Accepts:
 Topic
