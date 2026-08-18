@@ -396,7 +396,9 @@ FastAPI Backend (Render)
                       ▼
                    Student
 
- ## Major AI-LMS Modules 
+ ## Major AI-LMS Modules
+
+
 Student Dashboard
 │
 ├── Study Planner
