@@ -102,8 +102,8 @@ async def startup():
         "expires_at",
         expireAfterSeconds=0
     )
-# @app.get("/")
-# async def home():
-#     return {
-#         "message": "AI LMS Backend Running"
-#     }
+ @app.get("/")
+ async def home():
+     return {
+         "message": "AI LMS Backend Running"
+     }
