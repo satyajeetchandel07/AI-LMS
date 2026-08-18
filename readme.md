@@ -426,6 +426,7 @@ Student Dashboard
 │
 └── Results
 
+
 ## Project Goal
 
 The main goal of AI-LMS is to combine traditional Learning Management System functionality with artificial intelligence to provide students with a more personalized and interactive learning environment.
