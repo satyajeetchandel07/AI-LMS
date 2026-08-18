@@ -399,32 +399,47 @@ FastAPI Backend (Render)
  ## Major AI-LMS Modules
 
 
-Student Dashboard
-│
-├── Study Planner
-│   ├── Schedule
-│   ├── Hours Analysis
-│   ├── Weekly Goal
-│   ├── Daily Plan
-│   ├── Student Message
-│   └── Countdown
-│
-├── AI Quiz
-│   ├── Quiz Generation
-│   ├── MCQ Selection
-│   ├── Submit
-│   ├── Answer Checking
-│   └── Result Highlighting
-│
-├── AI Interview
-│
-├── Courses
-│
-├── Assignments
-│
-├── Attendance
-│
-└── Results
+                         Student Dashboard
+                                │
+        ┌───────────────────────┼────────────────────────┐
+        │                       │                        │
+        ▼                       ▼                        ▼
+ ┌───────────────┐       ┌───────────────┐       ┌───────────────┐
+ │ Study Planner │       │    AI Quiz     │       │ AI Interview  │
+ └───────┬───────┘       └───────┬───────┘       └───────────────┘
+         │                       │
+    ┌────┼────┬────┬────┐   ┌────┼────┬────┬────┐
+    ▼    ▼    ▼    ▼    ▼   ▼    ▼    ▼    ▼    ▼
+ Schedule Hours Weekly Daily Student Countdown
+          Analysis Goal  Plan  Message
+                             
+                          AI Quiz
+                            │
+             ┌──────────────┼──────────────┐
+             ▼              ▼              ▼
+      Quiz Generation   MCQ Selection    Submit
+                                             │
+                                             ▼
+                                      Answer Checking
+                                             │
+                                             ▼
+                                      Result Highlighting
+
+
+                         Student Dashboard
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+        ┌──────────┐       ┌────────────┐     ┌──────────┐
+        │ Courses  │       │Assignments │     │Attendance│
+        └──────────┘       └────────────┘     └──────────┘
+                                                   
+                                │
+                                ▼
+                          ┌──────────┐
+                          │ Results  │
+                          └──────────┘
 
 
 ## Project Goal
