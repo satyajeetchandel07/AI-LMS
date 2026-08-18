@@ -97,36 +97,52 @@ The dashboard continuously updates the remaining time and calculates the overall
 
 ## AI Quiz 
 
-# AI QUIZ
-        ↓
-Accepts:
-Topic
-Number of questions
-Difficulty
-        ↓
-User clicks Generate Quiz
-        ↓
-New maximized window opens immediately
-        ↓
-Rocket animation starts
-        ↓
-API request starts
-        ↓
-Rocket keeps flying while AI generates
-        ↓
-API response arrives
-        ↓
-Rocket flies out vertically
-        ↓
-MCQs appear
-        ↓
-User selects answers
-        ↓
-Submit
-        ↓
-Correct = green
-Wrong = red
-Marks generated on the basis of number of question selected
+#                          AI QUIZ
+                            │
+                            ▼
+                    Accepts:
+                    Topic
+                    Number of Questions
+                    Difficulty
+                            │
+                            ▼
+              User clicks "Generate Quiz"
+                            │
+                            ▼
+          New maximized window opens immediately
+                            │
+                            ▼
+                Rocket animation starts
+                            │
+                            ▼
+                   API request starts
+                            │
+                            ▼
+          Rocket keeps flying while AI generates
+                            │
+                            ▼
+                  API response arrives
+                            │
+                            ▼
+             Rocket flies out vertically
+                            │
+                            ▼
+                     MCQs appear
+                            │
+                            ▼
+                 User selects answers
+                            │
+                            ▼
+                        Submit
+                            │
+                            ▼
+                 Correct Answer = Green
+                            │
+                            ▼
+               Wrong Selected Answer = Red
+                            │
+                            ▼
+       Marks generated based on number of questions
 
 
 ## AI Features
@@ -150,15 +166,16 @@ The backend is developed using FastAPI.
 
 The backend is responsible for:
 
-Authentication
-Student data
-Study planner generation
-Quiz generation
-Database operations
-API endpoints
-AI service integration
-Data retrieval and persistence
-Backend Organization
+-Authentication
+-Student data
+-Study planner generation
+-Quiz generation
+-Database operations
+-API endpoints
+-AI service integration
+-Data retrieval and persistence
+
+## Backend Organization
 backend/
 ├── routers/
 ├── schemas/
@@ -174,21 +191,21 @@ AI-LMS uses MongoDB Atlas for persistent data storage.
 
 MongoDB stores information such as:
 
-Student information
-Authentication-related data
-Generated study plans
-Study schedule information
-AI-generated content
-Other application data
+-Student information
+-Authentication-related data
+-Generated study plans
+-Study schedule information
+-AI-generated content
+-Other application data
 
 The Study Planner stores information including:
 
-student_email
-daily_study_hours
-days_generated
-expires_at
-created_at
-plan
+-student_email
+-daily_study_hours
+-days_generated
+-expires_at
+-created_at
+-plan
 
  ## API Communication
 
@@ -200,8 +217,8 @@ Frontend service modules are used to keep API logic separate from UI components.
 
 Examples:
 
-studyPlannerService
-aiQuizService
+-studyPlannerService
+-aiQuizService
 
 This structure makes the frontend easier to maintain and allows individual features to communicate with their corresponding backend APIs.
 
@@ -211,11 +228,11 @@ The application includes authentication functionality to manage student access a
 
 Authenticated users can access student-specific functionality such as:
 
-Dashboard
-Study Planner
-AI Quiz
-Academic information
-AI learning tools
+-Dashboard
+-Study Planner
+-AI Quiz
+-Academic information
+-AI learning tools
 
 ## Tech Stack
 
@@ -387,29 +404,29 @@ The main goal of AI-LMS is to combine traditional Learning Management System fun
 
 The system aims to help students:
 
-Plan their studies
-Track academic progress
-Generate practice questions
-Prepare for interviews
-Monitor schedules
-Receive AI-powered learning assistance
-Improve their overall learning experience
+-Plan their studies
+-Track academic progress
+-Generate practice questions
+-Prepare for interviews
+-Monitor schedules
+-Receive AI-powered learning assistance
+-Improve their overall learning experience
 
 ## Future Improvements
 
 Possible future improvements include:
 
-More advanced AI recommendations
-Student performance analytics
-Personalized difficulty adjustment
-AI-generated assignments
-AI-based interview evaluation
-Learning streaks and achievements
-More detailed progress analytics
-Notifications and reminders
-Improved calendar integration
-Advanced instructor functionality
-More comprehensive deployment and monitoring
+-More advanced AI recommendations
+-Student performance analytics
+-Personalized difficulty adjustment
+-AI-generated assignments
+-AI-based interview evaluation
+-Learning streaks and achievements
+-More detailed progress analytics
+-Notifications and reminders
+-Improved calendar integration
+-Advanced instructor functionality
+-More comprehensive deployment and monitoring
 
  ## Development Status
 
