@@ -366,7 +366,35 @@ started moving the project from local development toward deployment:
 
 ##  Application Flow
 
-
+Student
+   │
+   ▼
+React Frontend (Vercel)
+   │
+   ▼
+Axios API Requests
+   │
+   ▼
+FastAPI Backend (Render)
+   │
+   ├──────────────► MongoDB Atlas
+   │                    │
+   │                    ▼
+   │                Stored Data
+   │
+   └──────────────► AI Service
+                         │
+                         ▼
+                     AI Response
+                         │
+                         ▼
+                  FastAPI Backend
+                         │
+                         ▼
+                  React Frontend
+                         │
+                         ▼
+                       Student
 
 
 
