@@ -59,7 +59,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://ai-lms1.vercel.app/",
+        "https://ai-lms1.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
