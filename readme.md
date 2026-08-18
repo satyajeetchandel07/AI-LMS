@@ -369,26 +369,32 @@ started moving the project from local development toward deployment:
 Student
    │
    ▼
-React Frontend
+React Frontend (Vercel)
    │
    ▼
 Axios API Requests
    │
    ▼
-FastAPI Backend
+FastAPI Backend (Render)
    │
-   ├──────────────► MongoDB Atlas
+   ├──────────► MongoDB Atlas
+   │                  │
+   │                  ▼
+   │             Stored Data
    │
-   └──────────────► AI Service
-                         │
-                         ▼
-                    AI Response
-                         │
-                         ▼
-                  FastAPI Backend
-                         │
-                         ▼
-                  React Frontend
+   └──────────► AI Service
+                      │
+                      ▼
+                 AI Response
+                      │
+                      ▼
+               FastAPI Backend
+                      │
+                      ▼
+               React Frontend
+                      │
+                      ▼
+                   Student
 
  ## Major AI-LMS Modules 
 Student Dashboard
