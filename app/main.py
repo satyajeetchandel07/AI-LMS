@@ -103,9 +103,9 @@ async def startup():
     await study_planner_collection.create_index(
         "expires_at",
         expireAfterSeconds=0
-    )
- @app.get("/")
- async def home():
-     return {
-         "message": "AI LMS Backend Running"
-     }
+ #    )
+ # @app.get("/")
+ # async def home():
+ #     return {
+ #         "message": "AI LMS Backend Running"
+ #     }
