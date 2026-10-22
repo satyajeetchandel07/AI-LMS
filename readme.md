@@ -64,27 +64,57 @@
 
 ## Study Planner Timeline
 
-<div class="timeline-box">
-    <h3>Study Planner Timeline</h3>
+<div align="center">
 
-    <div class="timeline">
-        <div class="timeline-stage">Schedule</div>
-        <div class="timeline-arrow">↓</div>
+## 📚 Study Planner Timeline
 
-        <div class="timeline-stage">Hours Analysis</div>
-        <div class="timeline-arrow">↓</div>
+<table>
+  <tr>
+    <td align="center"><b>📅 Schedule</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">⬇️</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>⏱️ Hours Analysis</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">⬇️</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🎯 Weekly Goal</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">⬇️</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>📝 Plan</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">⬇️</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>💬 Student Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">⬇️</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>⏳ Countdown</b>
+    </td>
+  </tr>
+</table>
 
-        <div class="timeline-stage">Weekly Goal</div>
-        <div class="timeline-arrow">↓</div>
-
-        <div class="timeline-stage">Plan</div>
-        <div class="timeline-arrow">↓</div>
-
-        <div class="timeline-stage">Student Message</div>
-        <div class="timeline-arrow">↓</div>
-
-        <div class="timeline-stage">Countdown</div>
-    </div>
 </div>
 
 The dashboard includes a six-stage study planner timeline:
