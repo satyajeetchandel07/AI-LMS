@@ -64,6 +64,29 @@
 
 ## Study Planner Timeline
 
+<div class="timeline-box">
+    <h3>Study Planner Timeline</h3>
+
+    <div class="timeline">
+        <div class="timeline-stage">Schedule</div>
+        <div class="timeline-arrow">↓</div>
+
+        <div class="timeline-stage">Hours Analysis</div>
+        <div class="timeline-arrow">↓</div>
+
+        <div class="timeline-stage">Weekly Goal</div>
+        <div class="timeline-arrow">↓</div>
+
+        <div class="timeline-stage">Plan</div>
+        <div class="timeline-arrow">↓</div>
+
+        <div class="timeline-stage">Student Message</div>
+        <div class="timeline-arrow">↓</div>
+
+        <div class="timeline-stage">Countdown</div>
+    </div>
+</div>
+
 The dashboard includes a six-stage study planner timeline:
 
 Schedule
