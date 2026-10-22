@@ -23,6 +23,7 @@
 
 ## Study Planner 
 
+
    #                 STUDY PLANNER
                          │
                          ▼
@@ -67,7 +68,7 @@
 <div align="center">
 
 ## 📚 Study Planner Timeline
-
+The dashboard includes a six-stage study planner timeline:
 <table>
   <tr>
     <td align="center"><b>📅 Schedule</b>
@@ -117,19 +118,6 @@
 
 </div>
 
-The dashboard includes a six-stage study planner timeline:
-
-Schedule
-   ↓
-Hours Analysis
-   ↓
-Weekly Goal
-   ↓
-Plan
-   ↓
-Student Message
-   ↓
-Countdown
 
 The timeline uses active and inactive states to visually represent the progress of the study schedule.
 
